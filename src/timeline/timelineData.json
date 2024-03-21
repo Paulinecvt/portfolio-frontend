@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "event": "Baccalaureate",
+        "description": "Mention Assez Bien",
+        "place": "Châtillon-sur-Seine (France)",
+        "year": 2015
+    },
+    {
+        "id": 2,
+        "event": "Medical Secretary",
+        "description": "Worked as a medical secretary for two doctors during the summers of my teenages, then right after my baccalaureat. Had the responsability to manage the planning, answer the calls and type the mail for the doctors.",
+        "place": "Troyes (France)",
+        "year": 2015
+
+    },
+    {
+        "id": 3,
+        "event": "Paramedic French Diploma",
+        "description": "Diploma to become Paramedic in France",
+        "place": "Troyes (France)",
+        "year": 2017
+    },
+    {
+        "id": 4,
+        "event": "Paramedic",
+        "description": "Worked as a paramedic in two different places in France during five years. Had the responsability to manage the emergency calls, the emergency and medical care, the wellbeing and the transport of the patients.",
+        "place": "Aube (France)",
+        "year": "2017 to 2022",
+        "projects": ["Interview for 'What's up Doc ?' Magazine", "Podcast 'Demande t-on aux carottes'"]
+    },
+    {
+        "id": 5,
+        "event": "Sociology Licence",
+        "description": "Mention 'Social Sciences'. My main interest are communication sociology, medias, propaganda and politics. I also have strong interest for anthropology and the work of Margaret Mead.",
+        "place": "University of Caen (France)",
+        "year": "2021 to 2024",
+        "projects": ["Mémoire : 'Taking into account and managing stereotypes and biases leading to discrimination of vulnerable populations by medical professionals within emergency services and call centers' ", "Research : 'When children who are victims of domestic violence become parents'", "Ethnographic Study : 'The role of family caregiver of the ederly dependent at home' "]
+    },
+    {
+        "id": 6,
+        "event": "UX/UI Designer",
+        "description": "Bootcamp of UX/UI Design with Iron Hack (french). Had the opportunity to work in teams, take the leadership, create a project from scratch, make a research, create a prototype and a final project. I also had the opportunity to work on a real project with a real client.",
+        "technologies": ["Figma", "Figjam", "Canva", "Adobe Photoshop", "Lightroom", "Creative Cloud", "Google suite", "Google Analyctics", "Procreate", "Zoom", "Slack", "Discord"],
+        "place": "Paris (remote)",
+        "year": 2023,
+        "projects": ["Let's Loot", "21Days", "L'endroit Par Fée", "Reddit Dark Theme redesign"]
+    },
+    {
+        "id": 7,
+        "event": "Fullstack Web Developer",
+        "description": "Bootcamp of Web Development Fullstack with Iron Hack (english). Had the opportunity to learn pair-programming, code both in front and back-end, create multiple projects and took interest in the transmission of my knowledge to my peers.",
+        "technologies": ["VSCode", "GitHub", "Express", "Node", "MongoDB", "Mongoose", "React", "Netlify", "Postman", "Adaptable", "Trello", "Slack", "Discord", "Zoom", "TailwindCSS"],
+        "place": "Paris (remote)",
+        "year": 2024,
+        "projects": ["Nyearth Game", "Lavatory Legends", "FullStyle", "Personal Portfolio"]
+        
+    }
+]
