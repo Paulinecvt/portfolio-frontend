@@ -50,6 +50,19 @@
 
 }
 
+.root {
+    background-color: white;
+
+}
+
+.title {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5vw;
+
+}
+
 @media screen and (max-width: 768px) {
     .navlinks {
         display: flex;
