@@ -4,6 +4,8 @@ import {Router} from './general/Router.jsx';
 import {Loading} from './components/Loading.jsx';
 import { NavBar } from './components/NavBar.jsx';
 
+import './index.css';
+
 export const PageWithHeader = ({children}) => (
   <div className="flex h-full flex-col">{children}</div>
 );

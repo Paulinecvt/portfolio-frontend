@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bacasime-antique-regular {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navlink {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vh;
+}
