@@ -3,11 +3,11 @@
 import React from 'react';
 import axios from 'axios';
 import {useState, useEffect} from 'react';
-import './projects.css';
 
 //ICONS
 import { FaLaptopCode } from "react-icons/fa";
 import { CgBrowser } from "react-icons/cg";
+import './projects.css';
 
 export function Projects() {
 const [web, setWeb] = useState([]);
@@ -44,8 +44,10 @@ return (
         <br/>
         <br/>
         <br/>
+        {loading && <p>Loading projects from database...</p>}
+
         {web.map((project, index) => (
-            <div key={project._id} className={`flex flex-row border-b-2 pb-6 m-2 gap-12 h-5/6 ${index !== web.length - 1 ? '' : 'border-b-0'}`}>
+            <div key={project._id} className={`container flex flex-row border-b-2 pb-6 m-2 gap-12 h-5/6 ${index !== web.length - 1 ? '' : 'border-b-0'}`}>
                 <div className='flex flex-col w-3/5 justify-center'>
                     <br/>
                 <h3 className='event uppercase'>{project.title}</h3>
@@ -95,7 +97,7 @@ return (
         <br/>
         <br/>
         {design.map((project, index) => (
-            <div key={project._id} className={`flex flex-row border-b-2 pb-6 m-2 gap-4 h-5/6 ${index !== design.length - 1 ? '' : 'border-b-0'}`}>
+            <div key={project._id} className={`container flex flex-row border-b-2 pb-6 m-2 gap-4 h-5/6 ${index !== design.length - 1 ? '' : 'border-b-0'}`}>
                 <div className='flex flex-col justify-center'>
                 {project.images.length > 0 && project.images.map((image, index) => (
                     <a key={index} href={image} target="_blank" rel="noopener noreferrer">
