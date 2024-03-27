@@ -69,6 +69,11 @@ h1 h2 h3 h4 h5 h6 {
 
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
 @media screen and (max-width: 768px) {
     .navlinks {
         display: flex;
@@ -80,6 +85,14 @@ h1 h2 h3 h4 h5 h6 {
         align-items: center;
         margin-right: auto;
         margin-left: auto; 
+      }
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto; 
+        gap: 1rem;
       }
     
 }

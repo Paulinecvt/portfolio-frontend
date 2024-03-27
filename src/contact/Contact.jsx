@@ -15,7 +15,7 @@ export const Contact = () => (
                     <h3 className='jobs'>UX Writer</h3>
                     <h3 className='jobs'>UX/UI Designer</h3>
                 </section>
-                <section className='flex flex-col justify-center'>
+                <section className='flex flex-col justify-center '>
                     <img src={portrait} alt="portrait" className="w-48 flex"/>
                 </section>
                 <section className='flex flex-col justify-end'>
@@ -28,7 +28,7 @@ export const Contact = () => (
         <br/>
         <br/>
 
-        <div className="flex flex-row bg-white justify-around">
+        <div className="contact flex flex-row bg-white justify-around">
 
             <div className='flex flex-row items-center gap-2'>
                 <a href="mailto:paulinecvt.wd@gmail.com?subject=Mail from PaulineCVT-Portfolio"><IoIosMail /></a>
