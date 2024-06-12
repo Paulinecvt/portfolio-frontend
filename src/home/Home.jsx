@@ -128,7 +128,7 @@ export const Home = () => (
       </div>
 
       <div className='flex flex-row items-center gap-2'>
-        <a href="https://drive.google.com/file/d/1C1kAHlORHRdvJPFhOIjqSkZCYTHme4lp/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1Holqs06InI1P_xemGWNqn-1xtocKWrGD/view?usp=sharing">
           <LuPaperclip />
         </a>
         <p>Get my resume</p>
