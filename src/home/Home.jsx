@@ -36,7 +36,7 @@ export const Home = () => (
       <p className="text-left">
         I am a 28 years old creative mind, sociology student in my last year,
         passionated by social sciences and communication. Most, I am a full
-        stack developer with a strengh interest for design and user experience.
+        stack developer with a strength interest for design and user experience.
         To meet my need to create an effective and well designed product, I have
         a background in UX/UI design and UX writing. I am looking for
         opportunities to work on projects that will allow me to combine my
