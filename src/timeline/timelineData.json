@@ -31,14 +31,6 @@
     },
     {
         "id": 5,
-        "event": "Sociology Licence",
-        "description": "Mention 'Social Sciences'. My main interest are communication sociology, medias, propaganda and politics. I also have strong interest for anthropology and the work of Margaret Mead.",
-        "place": "University of Caen (France)",
-        "year": "2021 to 2024",
-        "projects": ["Mémoire : 'Taking into account and managing stereotypes and biases leading to discrimination of vulnerable populations by medical professionals within emergency services and call centers' ", "Research : 'When children who are victims of domestic violence become parents'", "Ethnographic Study : 'The role of family caregiver of the ederly dependent at home' "]
-    },
-    {
-        "id": 6,
         "event": "UX/UI Designer",
         "description": "Bootcamp of UX/UI Design with Iron Hack (french). Had the opportunity to work in teams, take the leadership, create a project from scratch, make a research, create a prototype and a final project. I also had the opportunity to work on a real project with a real client.",
         "technologies": ["Figma", "Figjam", "Canva", "Adobe Photoshop", "Lightroom", "Creative Cloud", "Google suite", "Google Analyctics", "Procreate", "Zoom", "Slack", "Discord"],
@@ -47,7 +39,7 @@
         "projects": ["Let's Loot", "21Days", "L'endroit Par Fée", "Reddit Dark Theme redesign"]
     },
     {
-        "id": 7,
+        "id": 6,
         "event": "Fullstack Web Developer",
         "description": "Bootcamp of Web Development Fullstack with Iron Hack (english). Had the opportunity to learn pair-programming, code both in front and back-end, create multiple projects and took interest in the transmission of my knowledge to my peers.",
         "technologies": ["VSCode", "GitHub", "Express", "Node", "MongoDB", "Mongoose", "React", "Netlify", "Postman", "Adaptable", "Trello", "Slack", "Discord", "Zoom", "TailwindCSS"],
@@ -55,5 +47,22 @@
         "year": 2024,
         "projects": ["Nyearth Game", "Lavatory Legends", "FullStyle", "Personal Portfolio"]
         
+    }, 
+    {
+        "id": 7,
+        "event": "Sociology Licence",
+        "description": "Mention 'Social Sciences'. My main interest are communication sociology, medias, propaganda and politics. I also have strong interest for anthropology and the work of Margaret Mead.",
+        "place": "University of Caen (France)",
+        "year": "2024",
+        "projects": ["Mémoire : 'Taking into account and managing stereotypes and biases leading to discrimination of vulnerable populations by medical professionals within emergency services and call centers' ", "Research : 'When children who are victims of domestic violence become parents'", "Ethnographic Study : 'The role of family caregiver of the ederly dependent at home' "]
+    },
+    {
+        "id": 8,
+        "event": "Search Engine Optimization (SEO) Specialization",
+        "description": "Specialization in SEO with Coursera including a certification. Had the opportunity to learn the basics of SEO, the importance of the keywords, contents, backlinks, website architecture... Also reinforced my knowledge in Google Analytics, Google Search Console and UX principles.",
+        "technologies" : ["Sitemaps", "robot.txt", "Google Analyctics", "Google SEO Tools"],
+        "place": "Paris(remote)",
+        "year": 2024,
+        "projects": ["To come"]
     }
 ]

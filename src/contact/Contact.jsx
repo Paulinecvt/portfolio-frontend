@@ -51,7 +51,7 @@ export const Contact = () => (
             </div>
 
             <div className='flex flex-row items-center gap-2'>
-            <a href='https://drive.google.com/file/d/1C1kAHlORHRdvJPFhOIjqSkZCYTHme4lp/view?usp=sharing'><LuPaperclip /></a>
+            <a href='https://drive.google.com/file/d/1Holqs06InI1P_xemGWNqn-1xtocKWrGD/view?usp=sharing'><LuPaperclip /></a>
                 <p className='text-left'>Get my resume</p> 
             </div>
      
