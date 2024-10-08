@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import { RoutePaths } from "./RoutePaths.jsx";
 import { Home } from "../home/Home.jsx";
+import { LLM } from "../llm/llm.jsx";
 import { Projects } from "../projects/Projects.jsx";
 import { Contact } from "../contact/Contact.jsx";
 import { NotFound } from "./NotFound.jsx";
@@ -14,6 +15,14 @@ export const Router = () => (
       element={
         <Layout>
           <Home />
+        </Layout>
+      }
+    />
+    <Route
+      path={RoutePaths.LLM}
+      element={
+        <Layout>
+          <LLM />
         </Layout>
       }
     />

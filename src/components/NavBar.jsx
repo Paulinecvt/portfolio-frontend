@@ -13,6 +13,7 @@ export const NavBar = () => (
 
         <div className=" navlinks flex justify-end gap-6 items-center p-4">
         <Link to={RoutePaths.HOME} className='navlink '>Home</Link>
+        <Link to={RoutePaths.LLM} className='navlink pl-5 border-l-2' >LLM</Link>
         <Link to={RoutePaths.PROJECTS} className='navlink pl-5 border-l-2' >Projects</Link>
         <Link to={RoutePaths.CONTACT} className='navlink pl-5 border-l-2'>Contact</Link>
         </div>

@@ -11,7 +11,10 @@ export const Home = () => (
   <div className="flex flex-col w-full pb-6 mb-6">
     <div className="flex flex-col items-center bg-white">
       <div className="cover flex flex-col items-center">
-        <h1 className="name uppercase m-0 p-0">Pauline Cvt</h1>
+
+        <div classname='flex flex-col'>
+        <img src='https://i.ibb.co/D5qMWFq/Capture-d-e-cran-2024-10-08-a-12-40-04.png' className='h-56 w-auto'/>
+        </div>
 
         <div className="flex flex-row gap-8 items-center">
           <section className="flex flex-col justify-start">
@@ -98,7 +101,9 @@ export const Home = () => (
         express my creativity and my need to learn every day being confronted
         with errors and infinite loops. But as every step of my career until
         then, I never gave up and continued to improve myself by a lot of hard
-        work, long hours of code, and quantity of monologues.{" "}
+        work, long hours of code, and quantity of monologues. In March, I got my diploma.
+        In April, I got three weeks to catch up on my semester and get ready for my final
+        exams. In June, I got my Bachelor's.{" "}
       </p>
       <br />
       <p className="text-right">

@@ -7,23 +7,28 @@ import { LuPaperclip } from "react-icons/lu";
 
 export const Contact = () => (
     <div>
-        <div className='cover flex flex-col items-center'>
-            <h1 className='name uppercase m-0 p-0'>Pauline Chevalliot</h1>
+        <div className="cover flex flex-col items-center">
 
-            <div className="flex flex-row gap-8 items-center">
-                <section className='flex flex-col justify-start'>
-                    <h3 className='jobs'>UX Writer</h3>
-                    <h3 className='jobs'>UX/UI Designer</h3>
-                </section>
-                <section className='flex flex-col justify-center '>
-                    <img src={portrait} alt="portrait" className="w-48 flex"/>
-                </section>
-                <section className='flex flex-col justify-end'>
-                    <h3 className='jobs'>Frontend Developer</h3>
-                    <h3 className='jobs'>Backend Developer</h3>
-                </section>
-            </div>
-        </div>
+<div classname='flex flex-col'>
+<img src='https://i.ibb.co/D5qMWFq/Capture-d-e-cran-2024-10-08-a-12-40-04.png' className='h-56 w-auto'/>
+</div>
+
+<div className="flex flex-row gap-8 items-center">
+  <section className="flex flex-col justify-start">
+    <h3 className="jobs">Social Sciences Content Expertise</h3>
+    <h3 className="jobs">Prompt Engeenering</h3>
+    <h3 className="jobs">Creative Writing for AI Training</h3>
+  </section>
+  <section className="flex flex-col justify-center">
+    <img src={portrait} alt="portrait" className="w-48 flex" />
+  </section>
+  <section className="flex flex-col justify-end">
+    <h3 className="jobs">En/Fr Translator & Evaluator</h3>
+    <h3 className="jobs">Harmful & Safety Content Writing</h3>
+    <h3 className="jobs">Fact-checking & Content Validation</h3>
+  </section>
+</div>
+</div>
         <br/>
         <br/>
         <br/>
@@ -51,7 +56,7 @@ export const Contact = () => (
             </div>
 
             <div className='flex flex-row items-center gap-2'>
-            <a href='https://drive.google.com/file/d/1Holqs06InI1P_xemGWNqn-1xtocKWrGD/view?usp=sharing'><LuPaperclip /></a>
+            <a href='https://drive.google.com/file/d/1XCE_umMIKSnXxnVklcoRwFvIiKMhSBQl/view?usp=drive_link'><LuPaperclip /></a>
                 <p className='text-left'>Get my resume</p> 
             </div>
      
