@@ -102,8 +102,18 @@ export const Home = () => (
       </p>
       <br />
       <p className="text-right">
-        Today, I'd like to find a place where I can live my passions, continue
-        to learn, and build websites I am proud of.
+      Today, I train artificial intelligence systems as a Freelancer.
+      My journey into Web Development sparked a growing fascination with 
+      technology, while my passion for social sciences drives me to explore 
+      its impact on society and users’ daily lives. My career history has 
+      deeply influenced my approach to work, focusing on ethics and inclusivity. 
+      I specialize in English/French translation and in reviewing “Harmful and 
+      Safety” content, as well as studying global guidelines and legal 
+      frameworks.
+
+      My goal? To make AI accessible to as many people as possible, in an 
+      ethical, inclusive, and safe way, helping users in their everyday lives 
+      and broadening their global perspectives. 
       </p>
     </div>
     <Timeline />
@@ -115,14 +125,28 @@ export const Home = () => (
         <Link to="/projects">
           <CiViewList />
         </Link>
-        <p>See my Projects</p>
+        <p>See my Dev and UX/UI Projects</p>
+      </div>
+
+      <div className='flex flex-row items-center gap-2'>
+        <Link to="/projects">
+          <CiViewList />
+        </Link>
+        <p>Learn more about LLM and my values</p>
+      </div>
+
+      <div className='flex flex-row items-center gap-2'>
+        <a href="https://drive.google.com/file/d/1XCE_umMIKSnXxnVklcoRwFvIiKMhSBQl/view?usp=drive_link">
+          <LuPaperclip />
+        </a>
+        <p>Get my complete resume</p>
       </div>
 
       <div className='flex flex-row items-center gap-2'>
         <a href="https://www.linkedin.com/in/paulinechevalliot">
           <FaLinkedin />
         </a>
-        <p>Visit my Linkedin</p>
+        <p>Visit my Linkedi and read more about me</p>
       </div>
 
       <div className='flex flex-row items-center gap-2'>
@@ -132,12 +156,6 @@ export const Home = () => (
         <p>Visit my Github</p>
       </div>
 
-      <div className='flex flex-row items-center gap-2'>
-        <a href="https://drive.google.com/file/d/1Holqs06InI1P_xemGWNqn-1xtocKWrGD/view?usp=sharing">
-          <LuPaperclip />
-        </a>
-        <p>Get my resume</p>
-      </div>
     </div>
   </div>
 );
