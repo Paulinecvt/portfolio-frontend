@@ -7,16 +7,16 @@ export const TimelineItem = ({ data }) => (
             <time className='year'>{data.year}</time>
             <h3 className='event uppercase'>{data.event}</h3>
             <h4 className='place'>{data.place}</h4>
-            <p>{data.description}</p>
+            <p className='description'>{data.description}</p>
             <br/>
             {data.projects && data.projects.length > 0 && <FaFilePen/>}
             {data.projects && data.projects.map((project, index) => (
-                <p key={index} className="">{project}</p>
+                <p key={index} className="description">{project}</p>
             ))}
             <br/>
             {data.technologies && data.technologies.length > 0 && <HiCodeBracketSquare/>}
             {data.technologies && data.technologies.map((technology, index) => (
-                <p key={index} className="">{technology}</p>
+                <p key={index} className="description">{technology}</p>
             ))}
             <span className="circle" />
         </div>

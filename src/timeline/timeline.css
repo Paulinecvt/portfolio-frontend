@@ -1,16 +1,21 @@
 .year {
     font-size: 1.5vw;
-    font-family: "Bacasime Antique", serif;
+    font-family: "Georgia", serif;
 }
 
 .event {
     font-size: 1.5rem;
-    font-family: "Italiana", sans-serif;
+    font-family: "Georgia", serif;
 }
 
 .place {
-    font-family: "Bacasime Antique", serif;
+    font-family: "Goergia", serif;
     font-size: 1.5vw;
+}
+
+.description {
+    font-family: "Goergia", serif;
+    font-size: 1.25vw;
 }
 
 .timeline-container {
