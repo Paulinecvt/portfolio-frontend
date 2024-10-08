@@ -9,7 +9,6 @@ export const Timeline = () => {
             <div className='flex justify-start'>
             <h2 className='title text-right uppercase'>About my journey</h2>
             </div>
-            <br/>
             <div>
                 {timelineData.length > 0 && (
                     <div className="timeline-container">

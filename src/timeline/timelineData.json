@@ -50,8 +50,8 @@
     }, 
     {
         "id": 7,
-        "event": "Sociology Licence",
-        "description": "Mention 'Social Sciences'. My main interest are communication sociology, medias, propaganda and politics. I also have strong interest for anthropology and the work of Margaret Mead.",
+        "event": "Sociology Bachelor",
+        "description": "Mention 'Social Sciences'. My main interest are communication sociology, technologies and their impacts, medias, propaganda and politics. I also have strong interest for anthropology and the work of Margaret Mead.",
         "place": "University of Caen (France)",
         "year": "2024",
         "projects": ["Mémoire : 'Taking into account and managing stereotypes and biases leading to discrimination of vulnerable populations by medical professionals within emergency services and call centers' ", "Research : 'When children who are victims of domestic violence become parents'", "Ethnographic Study : 'The role of family caregiver of the ederly dependent at home' "]
@@ -64,5 +64,15 @@
         "place": "Paris(remote)",
         "year": 2024,
         "projects": ["To come"]
+    },
+    {
+        "id": 9,
+        "event": "Freelance AI Trainer",
+        "description": "I specialize in training AI systems to ensure they are not only effective but also inclusive and ethical. My unique approach combines my expertise in prompt engineering, content creation, and translation, allowing me to follow training programs that meet diverse needs.",
+        "technologies": ["Data Annotation", "Translation & Localization", "Quality Evaluation", "Creative Writing for AI Training","Prompt Engineering & Multi-turn Conversations", "Constraints Handling", "Harmful & Safety Content Writing / Filtering", "Fact-checking & Content Validation", "Social Sciences Content Expertise", "Inclusivity & Bias Mitigation", "Ethical AI Training"],
+        "place": "Paris (remote)",
+        "year": 2024,
+        "projects": ["Confidential"]
+
     }
 ]

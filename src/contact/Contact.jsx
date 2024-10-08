@@ -10,7 +10,7 @@ export const Contact = () => (
         <div className="cover flex flex-col items-center">
 
 <div classname='flex flex-col'>
-<img src='https://i.ibb.co/D5qMWFq/Capture-d-e-cran-2024-10-08-a-12-40-04.png' className='h-56 w-auto'/>
+<img src='https://i.ibb.co/D5qMWFq/Capture-d-e-cran-2024-10-08-a-12-40-04.png' className='h-36 w-auto'/>
 </div>
 
 <div className="flex flex-row gap-8 items-center">
