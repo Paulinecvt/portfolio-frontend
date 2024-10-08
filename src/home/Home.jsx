@@ -11,19 +11,21 @@ export const Home = () => (
   <div className="flex flex-col w-full pb-6 mb-6">
     <div className="flex flex-col items-center bg-white">
       <div className="cover flex flex-col items-center">
-        <h1 className="name uppercase m-0 p-0">Pauline Chevalliot</h1>
+        <h1 className="name uppercase m-0 p-0">Pauline Cvt</h1>
 
         <div className="flex flex-row gap-8 items-center">
           <section className="flex flex-col justify-start">
-            <h3 className="jobs">UX Writer</h3>
-            <h3 className="jobs">UX/UI Designer</h3>
+            <h3 className="jobs">Social Sciences Content Expertise</h3>
+            <h3 className="jobs">Prompt Engeenering</h3>
+            <h3 className="jobs">Creative Writing for AI Training</h3>
           </section>
           <section className="flex flex-col justify-center">
             <img src={portrait} alt="portrait" className="w-48 flex" />
           </section>
           <section className="flex flex-col justify-end">
-            <h3 className="jobs">Frontend Developer</h3>
-            <h3 className="jobs">Backend Developer</h3>
+            <h3 className="jobs">En/Fr Translator & Evaluator</h3>
+            <h3 className="jobs">Harmful & Safety Content Writing</h3>
+            <h3 className="jobs">Fact-checking & Content Validation</h3>
           </section>
         </div>
       </div>
@@ -34,23 +36,26 @@ export const Home = () => (
     <div className="flex flex-col bg-white w-2/4">
       <h2 className="title text-left uppercase">About Me</h2>
       <p className="text-left">
-        I am a 28 years old creative mind, sociology student in my last year,
-        passionated by social sciences and communication. Most, I am a full
-        stack developer with a strength interest for design and user experience.
-        To meet my need to create an effective and well designed product, I have
-        a background in UX/UI design and UX writing. I am looking for
-        opportunities to work on projects that will allow me to combine my
-        skills in design and development. I'm a digital nomad leaving in Paris,
-        France, open to move abroad and discover new horizons. I am french
-        native and english-speaker.
+        I am a 29 years old creative mind, sociology bachelor,
+        passionated by social sciences and communication. Most of all, 
+        I’m a passionate freelance professional with a deep curiosity 
+        for new technologies, always eager to learn quickly and adapt 
+        to fresh challenges. My expertise lies in artificial intelligence, 
+        with a strong focus on inclusivity. I believe that technology should 
+        be accessible to everyone and truly reflect the diversity of our 
+        world. I bring this vision to life in every project I work on, 
+        collaborating creatively to design innovative and inclusive solutions.
       </p>
       <br />
       <p className="text-left">
-        In my personal life, I live, play and dream about forms and colors. I
-        have interest in arts, travels and the discovery of cultures I don't
-        know. I have plenty of interests and live my passions 100%. I am
-        passionated about every thing I begin, read a lot, and have a strong
-        need to learn all along my days.
+      In my personal life, I live, explore, and immerse myself in forms and 
+      colors. I have a deep and constant interest in the arts, travel, and 
+      discovering cultures unfamiliar to me. Curious and passionate, I 
+      approach every project with enthusiasm and dedication, while nurturing 
+      an insatiable need to learn every day. My background in social sciences 
+      has strengthened this curiosity, helping me better understand cultural 
+      expressions and their impact on our world. Each experience fuels my 
+      desire to learn more and embrace new perspectives.
       </p>
     </div>
 
