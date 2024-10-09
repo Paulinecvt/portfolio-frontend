@@ -83,6 +83,7 @@ export const LLM = () => (
    
     <div className="flex flex-col justify-start text-justify">
         <h3 className="title uppercase text-left">Diversity, inclusivity and translation challenges</h3>
+        <br/>
         <p>My native language, French, is not known for its inclusivity regarding gender. From our earliest 
             years of learning, it is common for the masculine form to take precedence over the 
             feminine in expression. Traditional French rules, such as proximity agreement and the 
