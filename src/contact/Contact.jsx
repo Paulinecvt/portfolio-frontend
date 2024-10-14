@@ -22,7 +22,7 @@ export const Contact = () => (
   <section className="flex flex-col justify-center">
     <img src={portrait} alt="portrait" className="w-48 flex" />
   </section>
-  <section className="flex flex-col justify-end">
+  <section className="flex flex-col justify-end text-right">
     <h3 className="jobs">En/Fr Translator & Evaluator</h3>
     <h3 className="jobs">Harmful & Safety Content Writing</h3>
     <h3 className="jobs">Fact-checking & Content Validation</h3>

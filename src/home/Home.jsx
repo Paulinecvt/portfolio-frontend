@@ -25,7 +25,7 @@ export const Home = () => (
           <section className="flex flex-col justify-center">
             <img src={portrait} alt="portrait" className="w-48 flex" />
           </section>
-          <section className="flex flex-col justify-end">
+          <section className="flex flex-col justify-end text-right">
             <h3 className="jobs">En/Fr Translator & Evaluator</h3>
             <h3 className="jobs">Harmful & Safety Content Writing</h3>
             <h3 className="jobs">Fact-checking & Content Validation</h3>
@@ -38,7 +38,7 @@ export const Home = () => (
     <br />
     <div className="flex flex-col bg-white w-3/5">
       <h2 className="title text-left uppercase">About Me</h2>
-      <p className="text-left">
+      <p className="text-left text-justify">
         I am a 29-year-old creative mind, sociology bachelor,
         passionate about social sciences and communication. Most of all, 
         I’m a passionate freelance professional with a deep curiosity 
@@ -50,7 +50,7 @@ export const Home = () => (
         collaborating creatively to design innovative and inclusive solutions.
       </p>
       <br />
-      <p className="text-left">
+      <p className="text-left text-justify">
         In my personal life, I live, explore, and immerse myself in forms and 
         colors. I have a deep and constant interest in the arts, travel, and 
         discovering cultures unfamiliar to me. Curious and passionate, I 
@@ -110,7 +110,7 @@ export const Home = () => (
       {/* Right Column for text */}
       <div className='flex flex-col w-3/5 self-en m-0 p-0'> {/* Adjust width as needed */}
         <h2 className="title text-right uppercase">About my work</h2>
-        <p className="text-right">
+        <p className="text-right text-justify">
           My need for discovery pushed me to the medical field from the moment I
           was able to work. I began as a medical secretary before the legal age in
           my country to become a paramedic. I worked hand in hand with my teammates
@@ -119,7 +119,7 @@ export const Home = () => (
           Social Sciences, and changed career.
         </p>
         <br />
-        <p className="text-right">
+        <p className="text-right text-justify">
           After moving to Paris, I took the time to explore the many museums the
           city offers and developed a deep interest in the link between design and
           the effectiveness of the message. I began a bootcamp of UX/UI Design
@@ -132,7 +132,7 @@ export const Home = () => (
           and 'Introduction to Computer Sciences,' to enter the Web Dev Bootcamp I wanted to.
         </p>
         <br />
-        <p className="text-right">
+        <p className="text-right text-justify">
           It was a surprise for me to arrive in the international session of this
           bootcamp. I had to adapt and learn from scratch, in another language,
           but I managed without taking a step back. I learned the AGILE methodology,
@@ -146,7 +146,7 @@ export const Home = () => (
           exams. In June, I earned my Bachelor's degree.
         </p>
         <br />
-        <p className="text-right">
+        <p className="text-right text-justify">
           Today, I train artificial intelligence systems as a Freelancer.
           My journey into Web Development sparked a growing fascination with 
           technology, while my passion for social sciences drives me to explore 
