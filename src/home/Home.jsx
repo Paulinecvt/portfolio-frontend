@@ -86,7 +86,7 @@ export const Home = () => (
         </div>
 
         <div className='flex flex-row items-center gap-2'>
-          <a href="https://drive.google.com/file/d/1XCE_umMIKSnXxnVklcoRwFvIiKMhSBQl/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1bjUl5VAjwVPuhZg6N8gkRsZTn6YMomV8/view?usp=drive_link">
             <LuPaperclip />
           </a>
           <p>Get my complete resume</p>
